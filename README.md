@@ -1,11 +1,11 @@
-# Unit-vs-integration-testing #
+# Unit-vs-integration-testing 
 By: Salam-Eman-Ahmed-Abdalsamad
 </br>
 </br>
 </br>
 
 
-### What is unit testing? ###
+### What is unit testing?
 * Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. Unit testing can be done manually but is often automated.
 
 * Unit testing is a component of test-driven development (TDD), a pragmatic methodology that takes a meticulous approach to building a product by means of continual testing and revision. Test-driven development requires that developers first write failing unit tests. Then they write code and refactor the application until the test passes. TDD typically results in an explicit and predictable code base
@@ -18,25 +18,30 @@ Simple example:
 
 This a function that returns the sum of two integers:
 
-```int CombineNumbers(int a, int b)  {
+```
+int CombineNumbers(int a, int b)  {
     return a+b;
-}```
+}
+```
+
 
 This is the test for the previous function: </br>
-```void TestCombineNumbers() {
+```
+void TestCombineNumbers() {
     Assert.IsEqual(CombineNumbers(5, 10), 15);
     Assert.IsEqual(CombineNumbers(1000, -100), 900);
-}```
+}
+```
 
 
 </br>
 </br>
 
-### When should you perform unit tests? ###
+### When should you perform unit tests?
 They should be done as often as possible. When you are performing tests as part of the development process, your code is automatically going to be designed better than if you just wrote the functions and then moved on. Also, concepts such as Dependency Injection are going to evolve naturally into your code.
 
 
-### What are the unit testing benefits? ###
+### What are the unit testing benefits?
 * Unit testing increases confidence in changing/ maintaining code. If good unit tests are written and if they are run every time any code is changed, we will be able to promptly catch any defects introduced due to the change. Also, if codes are already made less interdependent to make unit testing possible, the unintended impact of changes to any code is less.
 * Codes are more reusable. In order to make unit testing possible, codes need to be modular. This means that codes are easier to reuse.
 * Development is faster. How? If you do not have unit testing in place, you write your code and perform that fuzzy ‘developer test’ (You set some breakpoints, fire up the GUI, provide a few inputs that hopefully hit your code and hope that you are all set.) But, if you have unit testing in place, you write the test, write the code and run the test. Writing tests takes time but the time is compensated by the less amount of time it takes to run the tests; You need not fire up the GUI and provide all those inputs. And, of course, unit tests are more reliable than ‘developer tests’. Development is faster in the long run too. How? The effort required to find and fix defects found during unit testing is very less in comparison to the effort required to fix defects found during system testing or acceptance testing.
@@ -44,7 +49,7 @@ They should be done as often as possible. When you are performing tests as part 
 * Debugging is easy. When a test fails, only the latest changes need to be debugged. With testing at higher levels, changes made over the span of several days/weeks/months need to be scanned.
 * Codes are more reliable. Why? I think there is no need to explain this to a sane person.
 
-### Unit Testing Tips ###
+### Unit Testing Tips
 * Find a tool/framework for your language.
 * Do not create test cases for everything. Instead, focus on the tests that impact the behavior of the system.
 * Isolate the development environment from the test environment.
