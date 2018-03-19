@@ -92,5 +92,5 @@ interactions between integrated components or systems.
 ### Lack of Integration Test
 
 <p align="center">
-<img src="https://media.giphy.com/media/3o7rbPDRHIHwbmcOBy/200w.webp">
+<img style="width:500px" src="https://media.giphy.com/media/3o7rbPDRHIHwbmcOBy/200w.webp">
 </p>
