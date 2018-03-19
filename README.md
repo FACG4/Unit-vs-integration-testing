@@ -21,13 +21,12 @@ This a function that returns the sum of two integers:
 ```int CombineNumbers(int a, int b)  {
     return a+b;
 }```
- </br>
+
 This is the test for the previous function: </br>
-``` void TestCombineNumbers() {
-    ```Assert.IsEqual(CombineNumbers(5, 10), 15);</br>
-     // Assert is an object that is part of your test framework
-    ```Assert.IsEqual(CombineNumbers(1000, -100), 900);
-} ```
+```void TestCombineNumbers() {
+    Assert.IsEqual(CombineNumbers(5, 10), 15);
+    Assert.IsEqual(CombineNumbers(1000, -100), 900);
+}```
 
 
 </br>
