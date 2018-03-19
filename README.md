@@ -63,8 +63,9 @@ They should be done as often as possible. When you are performing tests as part 
 
 
 ## What is an integration test?
+
 <p align="center">
-![](http://softwaretestingfundamentals.com/wp-content/uploads/2010/12/integrationtesting.jpg)
+<img src="http://softwaretestingfundamentals.com/wp-content/uploads/2010/12/integrationtesting.jpg">
 </p>
 
 * test the relationships between multiple components of software
@@ -86,6 +87,7 @@ interactions between integrated components or systems.
   * **Sandwich/Hybrid**  is an approach to Integration Testing which is a combination of Top Down and Bottom Up approaches.
 
 ### Lack of Integration Test
+
 <p align="center">
-![](https://media.giphy.com/media/3o7rbPDRHIHwbmcOBy/200w.webp)
+<img src="https://media.giphy.com/media/3o7rbPDRHIHwbmcOBy/200w.webp">
 </p>
